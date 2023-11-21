@@ -164,9 +164,15 @@
                 <div class="row m-auto container align-items-center">
                     <div class="col-md-6 explore-image">
                         <img
-                            src="/images/explore.jpg"
+                            srcset="
+                                ./images/explore_small.webp  650w,
+                                ./images/explore.webp       1200w
+                            "
+                            sizes="(max-width: 750px) 100vw,
+                           1200px"
+                            src="./images/explore.jpg"
                             class="image-fluid rounded-circle"
-                            alt=""
+                            alt="explore"
                         />
                     </div>
                     <div class="col-md-6 d-flex align-self-stretch flex-column">
@@ -264,9 +270,15 @@
                     </div>
                     <div class="col-md-6 explore-image">
                         <img
-                            src="/images/create.jpg"
+                            srcset="
+                                ./images/create_small.webp  650w,
+                                ./images/create.webp       1200w
+                            "
+                            sizes="(max-width: 750px) 100vw,
+                       1200px"
+                            src="./images/create.jpg"
                             class="image-fluid rounded-circle"
-                            alt=""
+                            alt="explore"
                         />
                     </div>
                 </div>
