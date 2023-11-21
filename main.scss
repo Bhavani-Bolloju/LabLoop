@@ -1,0 +1,58 @@
+$theme-colors: (
+    'primary': #343a40,
+    'primary-1': #6c757d,
+    'secondary': #4f492b,
+    'blue': #0d6efd,
+    'white': #f8f9fa
+);
+
+$font-size-root: 62.5% !default;
+$font-size-base: 1.6rem !default;
+
+// @import "../node_modules/bootstrap/scss/bootstrap";
+
+@import '../labloop/node_modules/bootstrap/scss/bootstrap';
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #f8f9fa;
+}
+
+.header {
+    padding: 15rem 0 8rem 0;
+    background: linear-gradient(to bottom, #1c1f22d4, #1d2023c6),
+        url('/images/group.jpg');
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.explore {
+    padding: 6rem 0;
+}
+
+.explore-image {
+    height: 40rem;
+
+    img {
+        height: 100%;
+        width: 90%;
+        object-fit: cover;
+    }
+}
+
+.create {
+    padding: 5rem 0;
+}
